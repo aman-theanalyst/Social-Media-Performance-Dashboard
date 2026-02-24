@@ -13,7 +13,8 @@
 - [Project Structure](#-project-structure)
 - [Dashboard](#-dashboard)
 - [Business Impact](#-business-impact)
-- [Research Questions & Key Findings](#-research-questions--key-findings)
+- [Research Questions](#-research-questions)
+- [Key Insights](#-key-insights)
 - [How to Run This Project](#-how-to-run-this-project)
 - [Final Recommendations](#-final-recommendations)
 - [What Makes This Project Stand Out](#-what-makes-this-project-stand-out)
@@ -101,7 +102,8 @@ Key KPIs derived:
 ┣ 📁 Dataset    
 ┣ 📷 Images        
 ┗ 📄 README.md    
-┗ 📊 Dashboard.pbix    
+┗ 📊 Dashboard.pbix   
+┗ 📊 python-insight-generated
 
 ---
 
@@ -161,7 +163,7 @@ This dashboard can help:
   
 ---
 
-## ❓ Research Questions & Key Findings
+## ❓ Research Questions
 
 ### 1️⃣ Which platforms generate the highest engagement?
 YouTube and TikTok dominate overall engagement volume.
@@ -177,6 +179,22 @@ Peak engagement window observed between **10 AM – 5 PM**, with strong weekend 
 
 ### 5️⃣ How does Organic compare to Sponsored?
 Organic content drives a larger share of engagement contribution relative to sponsored posts.
+
+---
+
+## 📊 Key Insights
+
+✅ Educational content = 19.9% avg engagement rate — 2.7× higher than Entertainment (7.5%) and 72% higher than Product Promotion. Yet most brands still over-invest in promotional content.   
+
+✅ Sponsored posts don't outperform organic — 15.4% vs 15.3%. Paid spend is barely moving the needle except on Instagram, the only platform where sponsored genuinely lifts performance (16.1% vs 15.8%).   
+
+✅ Images outperform video per post — Video dominates volume, but Image posts average a 17.9% engagement rate vs 14.5% for video. Massively underused format.   
+
+✅ 4 PM is the #1 engagement hour (89.7M), Wednesday is the top day (100M). Posts published before 10 AM perform 3–4× worse — a simple scheduling fix with huge upside.   
+
+✅ #CustomerStory drove 201M engagements — 6% more than #ProductDemo and 135% more than #3. Two hashtags alone drive 60% of all hashtag-attributed engagement.    
+
+✅ Germany underperforms despite comparable post volume — lowest regional engagement rate at 14.6% vs Australia's 15.5%, signalling a content-market fit problem worth diagnosing.   
 
 ---
 
@@ -202,11 +220,11 @@ git clone https://github.com/yourusername/social-media-performance-dashboard.git
 ---
 ## 💡 Final Recommendations
 
-- Focus on high-performing content categories for scaling strategy
-- Optimize posting during peak engagement windows
-- Diversify region-specific campaigns
-- Leverage organic performance strengths
-- Use engagement contribution metrics for ad spend allocation
+- Prioritize Educational + Customer Story content — they produce engagement rates 2–3× higher than Entertainment or Product Promotion.        
+- Post between 10-12 AM & 3–5 PM, especially on Wednesdays — this window consistently produces the highest engagement volume.   
+- Increase image-format posts — they have the highest average engagement rate (17.9%) and are underused relative to video.   
+- Double down on TikTok for reach + Instagram for sponsored ROI — the only platform where paid spend shows measurable lift.   
+- Investigate Germany's underperformance — lower engagement rate despite decent post volume signals a content-market mismatch worth diagnosing.
 
 ---
 
